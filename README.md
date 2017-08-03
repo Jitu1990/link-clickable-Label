@@ -3,11 +3,11 @@ JKTapableLabel is a subclass of UILabel. It enables you to set the text in label
 
 How to use:
 
-You can create an instance of JKTapableLable either programmatically or in interface builder. It has a property linkTextColor  to set the text color for the link.
+You can create an instance of JKTapableLabel either programmatically or in interface builder. It has a property linkTextColor  to set the text color for the link.
 
 If you create a JKTapableLabel in interface builder, then add an outlet to it in your view controller:
 
-@IBOutlet weak var inkLabel:JKTapableLabel! 
+@IBOutlet weak var linkLabel:JKTapableLabel! 
 
 Then set the inputTextLinkColor property if you did not set in interface builder:
 
